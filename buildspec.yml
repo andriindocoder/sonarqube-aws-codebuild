@@ -1,10 +1,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: local/sonar:sonartoken
-    HOST: local/sonar:HOST
-    Organization: local/sonar:Organization
-    Project: local/sonar:Project
+    LOGIN: local/sonarqube:sonartoken
+    HOST: local/sonarqube:HOST
+    Organization: local/sonarqube:Organization
+    Project: local/sonarqube:Project
 phases:
   install:
     commands:
